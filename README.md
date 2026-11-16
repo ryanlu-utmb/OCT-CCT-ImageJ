@@ -1,5 +1,7 @@
 # OCT CCT — ImageJ/Fiji macros for central corneal thickness
 
+English | [简体中文](README.zh-CN.md)
+
 Measure central corneal thickness (CCT) on anterior-segment OCT volumes
 (`.OCT.tiff` B-scan stacks), with a batch workflow that tolerates changing file
 and folder names.
