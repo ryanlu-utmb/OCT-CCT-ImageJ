@@ -2,8 +2,7 @@
 
 [English](README.md) | 简体中文
 
-在眼前节 OCT 容积数据（`.OCT.tiff` B-scan 图像栈）上测量中央角膜厚度（CCT）。
-提供批量处理流程，文件名和文件夹名有变化时也能正常识别。
+在眼前节 OCT 容积数据（`.OCT.tiff` B-scan 图像栈）上测量中央角膜厚度（CCT）
 
 ## 安装
 1. 在本页点击 **Code ▸ Download ZIP**，下载后解压。
