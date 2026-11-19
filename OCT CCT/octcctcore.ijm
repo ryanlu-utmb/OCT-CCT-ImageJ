@@ -535,9 +535,9 @@ function parseScan(f) {
     if (s == "") return "";
     return "" + parseInt(s);
 }
-// d3 / D7 / BL / Baseline / pre : file name first, then folders from deepest up
+// d3 / w2 / BL / Baseline / pre : file name first, then folders from deepest up
 function parseTimepoint(f, dir) {
-    rx = "(?i).*(?<![A-Za-z0-9])(d\\d+|BL|baseline|pre)(?![A-Za-z0-9]).*";
+    rx = "(?i).*(?<![A-Za-z0-9])(d\\d+|w\\d+|BL|baseline|pre)(?![A-Za-z0-9]).*";
     t = extract(f, rx);
     segs = split(dir, "\\/");
     for (k = segs.length - 1; k >= 0 && t == ""; k--) t = extract(segs[k], rx);
